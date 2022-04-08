@@ -1,2 +1,0 @@
-# reactnativenike
-keep moving forward
