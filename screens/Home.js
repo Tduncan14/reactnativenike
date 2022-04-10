@@ -1,39 +1,34 @@
-import React from 'react';
-import { View,Text,StyleSheet } from 'react-native';
-import {COLORS} from '../constants/index';
+import {View,Text,StyleSheet} from 'react-native';
+
+
 
 
 const Home = () => {
 
 
 
-    return(
 
+
+
+
+
+    return (
         <View>
-            <Text> Home</Text>
+            <Text style={styles.text}> Home</Text>
         </View>
     )
-
-
-
-
-
-
 }
 
 
-const Styles = StyleSheet.create({
 
-    container: {
-        flex:1,
-        backgroundColor:COLORS.white
+const styles = StyleSheet.create({
+
+    text:{
+        color:'black'
     }
-
-
 
 
 })
 
 
 export default Home
-
