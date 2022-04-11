@@ -3,4 +3,4 @@ export const search = require('../assets/icons/search.png');
 
 
 
-export const icons = {menu,search}
+export default {menu,search}

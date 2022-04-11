@@ -12,4 +12,4 @@ export const recentlyViewedLabel = require('../assets/images/recently-viewed-lab
 
 
 
-const images = {nikeMetcon3,nikeMetcon5Black,nikeMetcon6,nikeMetconFree,nikeMetcon5purple,nikePegaus36,nikeZoomKobe1Proto,recentlyViewedLabel};
+export default  {nikeMetcon3,nikeMetcon5Black,nikeMetcon6,nikeMetconFree,nikeMetcon5purple,nikePegaus36,nikeZoomKobe1Proto,recentlyViewedLabel};

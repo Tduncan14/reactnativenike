@@ -14,7 +14,7 @@ const Home = () => {
 
     return (
         <View>
-            <Text style={styles.text}> Home</Text>
+            <Text style={styles.text}> Homee</Text>
         </View>
     )
 }
