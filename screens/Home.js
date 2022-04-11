@@ -17,7 +17,7 @@ const Home = () => {
             id: 0,
             name: "Nike Air Zoom Pegasus 36",
             img: images.nikePegasus36,
-            bgColor: "#BF012C",
+             bgColor: "#BF012C",
             type: "RUNNING",
             price: "$186",
             sizes: [6, 7, 8, 9, 10]
@@ -75,7 +75,7 @@ const Home = () => {
 
            <Image 
            source={item.img}
-           resizeMode="cover"
+           resizeMode="contain"
            style={{
                position:'absolute',
                top:50,
@@ -83,8 +83,9 @@ const Home = () => {
                width:'98%',
                height:80,
                transform:[
-                   {rotate:'-15'}
+                   {rotate:'-15deg'}
                ]
+            
            }}
            
            
